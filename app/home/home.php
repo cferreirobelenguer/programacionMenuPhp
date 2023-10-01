@@ -20,62 +20,35 @@
     </div>
     <script>
         /**
-         * Variable that controls whether the exit message is displayed
-         */
-        var isVisible = false;
-        /**
          * Go to sum url
          */
         function getSuma() {
-            isVisible = false;
             window.location.href="../suma/suma.php";
         }
         /**
          * Go to diference url
          */
         function getDiferencia() {
-            isVisible = false;
             window.location.href="../Resta/resta.php";
         }
         /**
          * Go to product url
          */
         function getProducto() {
-            isVisible = false;
             window.location.href="../producto/producto.php";
         }
         /**
          * Go to division url
          */
         function getDivision() {
-            isVisible = false;
             window.location.href="../division/division.php";
         }
         /**
          * description: exit program
          */
         function exitProgram() {
-            isVisible = true;
-            document.getElementById("exit").innerHTML = isVisible ? "Usted salió del programa exitósamente <br> <button onClick='goHome()' >Volver a menú</button></button>" : "";
-            let content = document.getElementById("content");
-            if (content.hidden === false) {
-                content.hidden = true;
-            }
+            window.location.href="../exit/exit.php";
         }   
-        /**
-         * description: go to principal menu
-         */
-        function goHome() {
-            let content = document.getElementById("content");
-            if (content.hidden) {
-                content.hidden = false;
-            }
-            let exit = document.getElementById("exit");
-            if (exit.hidden === false) {
-                exit.hidden = true;
-            }
-
-        }
 
     </script>
 </body>
