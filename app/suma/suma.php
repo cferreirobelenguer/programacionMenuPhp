@@ -8,6 +8,10 @@
 <body>
     <div>
         <h1>Suma</h1>
+        <form action="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            <input type="number" name="number1" placeholder="Introduce número" required>
+            <input type="number" name="number2" placeholder="Introduce número" required>
+        </form>
         <button onClick="goHome()" >Volver a home</button>
     </div>
     <script>
