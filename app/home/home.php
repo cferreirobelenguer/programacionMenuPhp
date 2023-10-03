@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <div id="content" class="menu">
-        <h1 class="menu--title">Selecciona una de las opciones</h1>
-        <button  class="menu--button" onClick="getSuma()">Suma de enteros</button>
-        <button class="menu--button" onClick="getDiferencia()">Diferencia</button>
-        <button class="menu--button" onClick="getProducto()">Producto</button>
-        <button class="menu--button" onClick="getDivision()">División</button>
-        <button class="menu--button" onClick="exitProgram()">Salir</button>
+    <div id="content" class="app">
+        <h1 class="app--title">Selecciona una de las opciones</h1>
+        <button  class="app--button" onClick="getSuma()">Suma de enteros</button>
+        <button class="app--button" onClick="getDiferencia()">Diferencia</button>
+        <button class="app--button" onClick="getProducto()">Producto</button>
+        <button class="app--button" onClick="getDivision()">División</button>
+        <button class="app--button" onClick="exitProgram()">Salir</button>
     </div>
     <div id="exit">
 
